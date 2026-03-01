@@ -67,7 +67,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Deploy Container (Demo)
+      - name: Deploy Container
         run: |
           echo "Pulling latest image..."
           docker pull intipalli/goapp:latest
