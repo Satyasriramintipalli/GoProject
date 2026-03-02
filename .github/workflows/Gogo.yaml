@@ -27,7 +27,7 @@ jobs:
         run: go test ./...
 
       - name: SonarCloud Scan
-        uses: SonarSource/sonarqube-scan-action@v3
+        uses: SonarSource/sonarqube-scan-action@v2
         with:
           args: >
             -Dsonar.projectKey=satyasriramintipalli_GoProject
