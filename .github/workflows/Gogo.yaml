@@ -31,7 +31,7 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=satyasriramintipalli_GoProject
-            -Dsonar.organization=satyasriramintipalli-1
+            -Dsonar.organization=satyasriramintipalli
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: https://sonarcloud.io
