@@ -30,7 +30,7 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v2
         with:
           args: >
-            -Dsonar.projectKey=satyasriramintipalli_GoProject
+            -Dsonar.projectKey=Satyasriramintipalli_GoProject
             -Dsonar.organization=satyasriramintipalli
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
